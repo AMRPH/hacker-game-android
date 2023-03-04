@@ -1,0 +1,3 @@
+mutation updateHardware($typeHardware: String!) {
+    updateHardware (typeHardware: $typeHardware)
+}

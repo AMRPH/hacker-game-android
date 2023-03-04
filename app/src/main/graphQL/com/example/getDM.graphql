@@ -1,0 +1,10 @@
+query getDM($userIdWith: Int) {
+    getDM(userIdWith: $userIdWith) {
+        user_id
+        username
+        sent_at
+        user_id_from
+        username_from
+        message
+    }
+}

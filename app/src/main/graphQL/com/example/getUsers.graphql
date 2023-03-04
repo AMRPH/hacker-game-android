@@ -1,0 +1,8 @@
+query getUsers{
+    getUsers {
+        user_id
+        username
+        level
+        is_friend_or_requested_friendship
+    }
+}

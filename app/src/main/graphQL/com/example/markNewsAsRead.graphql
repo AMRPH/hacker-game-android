@@ -1,0 +1,3 @@
+mutation markNewsAsRead($id: Int!) {
+    markNewsAsRead (id: $id)
+}

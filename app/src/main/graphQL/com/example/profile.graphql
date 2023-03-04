@@ -1,0 +1,28 @@
+subscription profile { 
+	profile {
+        user_id
+        username
+        alco_balance
+        clan_id
+        clan
+        experience_points
+        next_xp
+        house
+        car
+        girl_appearance
+        girl_clothes
+        girl_jewelry
+        girl_leisure
+        girl_level
+        girl_sport
+        health_points
+        job_end
+        level
+        money_btc
+        money_rub
+        mood
+        moves
+        rating
+        work_hack_balance
+	} 
+}

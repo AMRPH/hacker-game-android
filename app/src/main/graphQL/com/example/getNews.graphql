@@ -1,0 +1,9 @@
+query getNews{
+    getNews {
+        id
+        date
+        title
+        body
+        read
+    }
+}

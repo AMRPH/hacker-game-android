@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackDark"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_initialization" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="70dp">
+
+        <EditText
+            android:id="@+id/etLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/ivLogin"
+            android:background="@drawable/style_background"
+            android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 123456789"
+            android:hint="@string/login"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:paddingHorizontal="4dp"
+            android:textColor="#67C6BF"
+            android:textColorHint="#2E5754"
+            android:textSize="30sp" />
+
+
+        <ImageView
+            android:id="@+id/ivLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/icon_login" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="140dp">
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/ivPassword"
+            android:background="@drawable/style_background"
+            android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 123456789"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingHorizontal="4dp"
+            android:singleLine="true"
+            android:textColor="#67C6BF"
+            android:textColorHint="#2E5754"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/ivPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/icon_password" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="190dp">
+
+        <EditText
+            android:id="@+id/etPasswordRepeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/ivPasswordRepeat"
+            android:background="@drawable/style_background"
+            android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 123456789"
+            android:hint="@string/repeat_pass"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingHorizontal="4dp"
+            android:singleLine="true"
+            android:textColor="#67C6BF"
+            android:textColorHint="#2E5754"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/ivPasswordRepeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/icon_password" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="270dp"
+        android:background="#00000000"
+        android:fontFamily="@font/hack"
+        android:shadowColor="#67C6BF"
+        android:shadowRadius="70"
+        android:text="@string/sign_up"
+        android:textColor="#67C6BF"
+        android:textSize="35sp" />
+
+</FrameLayout>

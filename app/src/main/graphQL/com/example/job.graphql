@@ -1,0 +1,7 @@
+subscription job{ 
+	job { 
+		id 
+		status
+		message
+	} 
+}

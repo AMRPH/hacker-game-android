@@ -1,0 +1,3 @@
+mutation requestClanMembership($id: Int!) {
+    requestClanMembership(id: $id)
+}

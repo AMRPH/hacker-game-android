@@ -1,0 +1,10 @@
+subscription software{ 
+	software { 
+        id
+        title
+        price_rub
+        purchased
+        status
+        message
+	} 
+}

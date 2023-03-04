@@ -1,0 +1,13 @@
+query getSoftware{
+    getSoftware {
+        id
+        title
+        short_description
+        description
+        image_path
+        price_rub
+        purchased
+        status
+        message
+    }
+}

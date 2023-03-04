@@ -1,0 +1,4 @@
+mutation doJob($id: Int!) {
+    doJob (id: $id)
+
+}

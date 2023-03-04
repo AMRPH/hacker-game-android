@@ -1,0 +1,10 @@
+subscription hardware{ 
+	hardware { 
+        id
+        level
+        title
+        next_price_rub
+        status
+        message
+	} 
+}

@@ -1,0 +1,10 @@
+subscription girls{ 
+	girls { 
+		type 
+		items { 
+			id 
+            status
+			message 
+		} 
+	} 
+}

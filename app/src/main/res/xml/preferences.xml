@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="sound"
+        android:title="@string/sound" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="music"
+        android:title="@string/music" />
+
+    <ListPreference
+        android:defaultValue="en"
+        android:entries="@array/languagesArray"
+        android:entryValues="@array/languagesValues"
+        android:key="lang"
+        android:title="@string/language" />
+
+    <Preference
+        android:title="@string/write_support"
+        android:key="support"/>
+
+    <Preference
+        android:title="@string/exit"
+        android:key="exit"/>
+</PreferenceScreen>

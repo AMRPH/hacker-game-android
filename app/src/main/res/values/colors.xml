@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="newMain">#1EE2D9</color>
+    <color name="newAccent">#BA05C9</color>
+    <color name="newMainLine">#414949</color>
+    <color name="newMainDark">#1E2121</color>
+
+    <color name="newBackMain">#2F5652</color>
+    <color name="newBackLight">#333838</color>
+    <color name="newBackDark">#151616</color>
+
+
+    <color name="colorMain">#67C6BF</color>
+    <color name="colorMainRed">#C67467</color>
+    <color name="colorMainDark">#2E5754</color>
+    <color name="colorBackDark">#0A0F0F</color>
+    <color name="colorTest">#33FF00</color>
+
+
+
+    <color name="colorСlanChat">#ABDFDC</color>
+
+    <color name="colorBackChatMy">#33ABDFDC</color>
+    <color name="colorBackChatOthers">#1FABDFDC</color>
+
+
+
+    <color name="textWhite2048">#F0F9F9</color>
+    <color name="textBlack2048">#0B1414</color>
+    <color name="textBrown2048">#294F4D</color>
+
+    <color name="background2048">#1C2729</color>
+    <color name="backRectangle2048">#658B88</color>
+    <color name="cellRectangleEmpty">#81AFAB</color>
+
+    <color name="CellRectangle2">#D9F1EF</color>
+    <color name="CellRectangle4">#C2E8E6</color>
+    <color name="CellRectangle8">#ABDFDC</color>
+    <color name="CellRectangle16">#94D7D3</color>
+    <color name="CellRectangle32">#7ECEC9</color>
+    <color name="CellRectangle64">#67C6C0</color>
+    <color name="CellRectangle128">#65C6C8</color>
+    <color name="CellRectangle256">#62C0CB</color>
+    <color name="CellRectangle512">#5FB9CE</color>
+    <color name="CellRectangle1024">#5BB1D1</color>
+    <color name="CellRectangle2048">#57A8D5</color>
+    <color name="CellRectangle4096">#539EDA</color>
+</resources>

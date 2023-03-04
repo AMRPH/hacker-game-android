@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/style_background">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="@font/hack"
+        android:gravity="center"
+        android:paddingVertical="3dp"
+        android:text="Меню"
+        android:textColor="@color/colorMain"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/btnMenuFriends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/style_background"
+        android:fontFamily="@font/hack"
+        android:gravity="center"
+        android:paddingVertical="5dp"
+        android:text="Мои друзья"
+        android:textColor="@color/colorMain"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/btnMenuDM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMenuFriends"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/style_background"
+        android:fontFamily="@font/hack"
+        android:gravity="center"
+        android:paddingVertical="5dp"
+        android:text="Мои сообщения"
+        android:textColor="@color/colorMain"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/btnMenuMyClan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMenuDM"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/style_background"
+        android:fontFamily="@font/hack"
+        android:gravity="center"
+        android:paddingVertical="5dp"
+        android:text="Мой клан"
+        android:textColor="@color/colorMain"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/btnMenuClans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMenuMyClan"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/style_background"
+        android:fontFamily="@font/hack"
+        android:gravity="center"
+        android:paddingVertical="5dp"
+        android:text="Все кланы"
+        android:textColor="@color/colorMain"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/btnMenuClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/button_no" />
+</RelativeLayout>

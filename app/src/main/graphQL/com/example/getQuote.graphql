@@ -1,0 +1,5 @@
+query getQuote($symbol: Symbol!) {
+    getQuote(symbol: $symbol) {
+        price
+    }
+}

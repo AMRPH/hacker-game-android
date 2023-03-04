@@ -1,0 +1,8 @@
+query getGame($sessionId: ID!) {
+    getGame(sessionId: $sessionId) {
+        sessionId
+        field
+        scores
+        status
+    }
+}

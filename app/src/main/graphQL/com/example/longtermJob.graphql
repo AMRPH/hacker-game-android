@@ -1,0 +1,7 @@
+subscription longtermJob{ 
+	longtermJob { 
+		id 
+		status
+		message
+	} 
+}

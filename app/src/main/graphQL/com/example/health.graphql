@@ -1,0 +1,8 @@
+subscription health{ 
+	health { 
+		id 
+		type
+		status 
+		message 
+	} 
+}

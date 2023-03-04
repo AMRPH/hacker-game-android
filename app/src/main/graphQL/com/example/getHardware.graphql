@@ -1,0 +1,13 @@
+query getHardware{
+    getHardware {
+        id
+        type
+        level
+        title
+        description
+        image_path
+        next_price_rub
+        status
+        message
+    }
+}

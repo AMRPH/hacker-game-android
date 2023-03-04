@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlChat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0F0F">
+
+    <ImageView
+        android:id="@+id/ivChatAvatar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_avatar" />
+
+    <TextView
+        android:id="@+id/tvChatUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/hack"
+        android:textColor="@color/colorMain"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/ivChatAvatar"
+        app:layout_constraintTop_toTopOf="@+id/ivChatAvatar" />
+
+    <ImageView
+        android:id="@+id/btnChatClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/button_no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/svChat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_above="@+id/ll"
+        android:layout_below="@+id/ivChatAvatar"
+        android:layout_margin="5dp"
+        android:foregroundGravity="bottom"
+        app:layout_constraintBottom_toTopOf="@+id/ll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivChatAvatar">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvChat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingHorizontal="5dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btnChatSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/style_background"
+            android:fontFamily="@font/hack"
+            android:text="@string/send"
+            android:textColor="#67C6BF" />
+
+        <EditText
+            android:id="@+id/edChatChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/btnChatSend"
+            android:backgroundTint="#67C6BF"
+            android:fontFamily="@font/hack"
+            android:hint="@string/enter_message"
+            android:maxLength="256"
+            android:textColor="#67C6BF"
+            android:textColorHint="#539F9A" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

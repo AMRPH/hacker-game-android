@@ -1,0 +1,11 @@
+mutation addClanMessage($message: String!) {
+    addClanMessage(message: $message) {
+        id
+        sent_at
+        clan_id
+        clan
+        user_id
+        username
+        message
+    }
+}

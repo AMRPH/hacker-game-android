@@ -1,0 +1,11 @@
+query getClanMessages{
+    getClanMessages {
+        id
+        sent_at
+        clan_id
+        clan
+        user_id
+        username
+        message
+    }
+}

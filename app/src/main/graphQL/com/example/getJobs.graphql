@@ -1,0 +1,12 @@
+query getJobs{
+    getJobs {
+        id
+        title
+        type
+		user_level
+        price_rub
+        price_btc
+        status
+        message
+    }
+}

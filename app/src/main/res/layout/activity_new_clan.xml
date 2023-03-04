@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackDark">
+
+    <EditText
+        android:id="@+id/etNewClanName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/style_background"
+        android:fontFamily="@font/hack"
+        android:hint="Название клана"
+        android:maxLength="24"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:textColor="@color/colorMain"
+        android:textColorHint="@color/colorMainDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnNewClanSelect"
+        app:layout_constraintEnd_toEndOf="@+id/btnNewClanSelect"
+        app:layout_constraintStart_toStartOf="@+id/btnNewClanSelect" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Cоздайте клан"
+        android:textColor="@color/colorMain"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivNewClanAvatar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/etNewClanName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btnNewClanSelect"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/style_background"
+        android:paddingHorizontal="5dp"
+        android:text="Своя аватарка"
+        android:textColor="@color/colorMain"
+        app:layout_constraintBottom_toTopOf="@id/btnNewClanDefault"
+        app:layout_constraintEnd_toEndOf="@+id/btnNewClanDefault"
+        app:layout_constraintStart_toStartOf="@+id/btnNewClanDefault" />
+
+    <Button
+        android:id="@+id/btnNewClanDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/style_background"
+        android:paddingHorizontal="5dp"
+        android:text="Использовать стандартную иконку"
+        android:textColor="@color/colorMain"
+        app:layout_constraintBottom_toTopOf="@+id/btnNewClanCreate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNewClanCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/style_background"
+        android:text="Создать"
+        android:textColor="@color/colorMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnNewClanClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingEnd="5dp"
+        android:src="@drawable/button_no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+query getStats{
+    getStats {
+        level {
+            username
+            level
+        }
+        alco {
+            username
+            alco_liters_use
+        }
+    }
+}

@@ -1,0 +1,5 @@
+mutation approveClanMembershipRequest($id: Int!, $approve: Boolean!) {
+    approveClanMembershipRequest(id: $id, approve: $approve) {
+        result
+    }
+}

@@ -1,0 +1,3 @@
+mutation approveFriendshipRequest($id: Int!, $approve: Boolean!) {
+    approveFriendshipRequest(id: $id, approve: $approve)
+}

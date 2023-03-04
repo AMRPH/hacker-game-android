@@ -1,0 +1,12 @@
+query getHousing{
+    getHousing {
+        id
+        level
+        title
+        description
+        image_path
+        price_rub
+        status
+        message
+    }
+}

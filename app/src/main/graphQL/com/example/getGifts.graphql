@@ -1,0 +1,10 @@
+query getGifts{
+    getGifts {
+        applied
+        gifts {
+            id
+            title
+            amount
+        }
+    }
+}

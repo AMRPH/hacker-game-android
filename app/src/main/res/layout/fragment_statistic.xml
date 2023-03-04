@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_statistic">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/style_background"
+        android:fontFamily="@font/hack"
+        android:padding="4dp"
+        android:text="Топ алкашей"
+        android:textColor="@color/colorMain"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/tvTopAlco1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hack"
+            android:textColor="@color/colorMain"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTopAlco2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hack"
+            android:textColor="@color/colorMain"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTopAlco3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hack"
+            android:textColor="@color/colorMain"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTopAlco4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hack"
+            android:textColor="@color/colorMain"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tvTopAlco5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hack"
+            android:textColor="@color/colorMain"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/style_background"
+        android:fontFamily="@font/hack"
+        android:padding="4dp"
+        android:text="Топ хакеров"
+        android:textColor="@color/colorMain"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:id="@+id/tvTopLevel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hack"
+            android:textColor="@color/colorMain"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTopLevel2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hack"
+            android:textColor="@color/colorMain"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTopLevel3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hack"
+            android:textColor="@color/colorMain"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTopLevel4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hack"
+            android:textColor="@color/colorMain"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTopLevel5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hack"
+            android:textColor="@color/colorMain"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

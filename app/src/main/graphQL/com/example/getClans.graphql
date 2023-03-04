@@ -1,0 +1,11 @@
+query getClans{
+    getClans {
+        id
+        title
+        rating
+        leader_id
+        leader
+        members_qty
+        is_member_or_in_requests 
+    }
+}

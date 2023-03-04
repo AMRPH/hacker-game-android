@@ -1,0 +1,14 @@
+query getLongtermJobs{
+    getLongtermJobs {
+        id
+        title
+        description
+        image_path
+        user_level
+        price_rub
+        price_btc
+        time
+        status
+        message
+    }
+}

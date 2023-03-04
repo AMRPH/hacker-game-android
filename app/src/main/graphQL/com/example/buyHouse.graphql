@@ -1,0 +1,3 @@
+mutation buyHouse($id: Int!) {
+    buyHouse(id: $id)
+}

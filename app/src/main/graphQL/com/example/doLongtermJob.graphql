@@ -1,0 +1,3 @@
+mutation doLongtermJob($id: Int!) {
+    doLongtermJob (id: $id)
+}

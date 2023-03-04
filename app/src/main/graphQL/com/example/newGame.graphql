@@ -1,0 +1,8 @@
+query newGame{
+    newGame {
+        sessionId
+        field
+        scores
+        status
+    }
+}

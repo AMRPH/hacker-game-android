@@ -1,0 +1,3 @@
+mutation exchange($symbol: Symbol!, $amount: Float!) {
+    exchange(symbol: $symbol, amount: $amount)
+}

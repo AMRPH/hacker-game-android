@@ -1,0 +1,3 @@
+mutation updateSoftware($id: Int!) {
+    updateSoftware (id: $id)
+}

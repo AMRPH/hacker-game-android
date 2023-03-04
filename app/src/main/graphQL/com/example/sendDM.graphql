@@ -1,0 +1,10 @@
+mutation sendDM($id: Int!, $message: String!) {
+    sendDM(id: $id, message: $message) {
+        user_id
+        username
+        sent_at
+        user_id_from
+        username_from
+        message
+    }
+}

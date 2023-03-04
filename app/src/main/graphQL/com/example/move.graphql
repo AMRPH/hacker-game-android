@@ -1,0 +1,10 @@
+mutation move($sessionId: ID!, $direction: Direction!) {
+    move(sessionId: $sessionId, direction: $direction) {
+        sessionId
+        field
+        scores
+        status
+        win
+        money_rub
+    }
+}

@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Master Hack</string>
+    <string name="game_over">Game Over</string>
+    <string name="time_is_out">Time is up</string>
+    <string name="exit">Exit</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="repeat_pass">Repeat password</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="you_win">You win</string>
+    <string name="you_lose">You lose</string>
+    <string name="play_again">Would you like to play again?</string>
+    <string name="enter_the_game">Enter the game</string>
+
+    <string name="settings">Settings</string>
+    <string name="sound">Sound</string>
+    <string name="music">Music</string>
+    <string name="language">Language</string>
+    <string name="write_support">Write to support</string>
+    <string name="enter_message">Enter message</string>
+    <string name="send">Send</string>
+
+    <string name="score">SCORE</string>
+    <string name="header">2048</string>
+    <string name="wrong_pass">Wrong password</string>
+    <string name="close">Close</string>
+    <string name="wrong_login">Wrong login</string>
+    <string name="username_already_exists">Login already exists</string>
+    <string name="pass_dont_match">Passwords do not match</string>
+    <string name="you_get">You receive</string>
+    <string name="rub">RUB</string>
+    <string name="exchange">Exchange</string>
+
+    <string name="server_error">Server not responding</string>
+
+    <string name="ok">ОК</string>
+
+    <string name="health">Здоровье</string>
+    <string name="health_description">Поддержка жизнеспособности организма хакера</string>
+    <string name="work_hack">Работа и Взлом</string>
+    <string name="work_hack_description">Тут ты можешь заработать себе на жизнь</string>
+    <string name="shop">Магазин</string>
+    <string name="shop_description">Здесь ты можете обновить компьютер, софт, купить перки</string>
+    <string name="info">Информация</string>
+    <string name="info_description">Аналитика и актуальная информация</string>
+    <string name="rich">Дом, машина, отношения </string>
+    <string name="rich_description">Раздел, где ты можешь улучшить свой быт и поднять рейтинг</string>
+    <string name="rating">Рейтинг</string>
+    <string name="select_pic">Выберите фото</string>
+    <string name="create_clan">Создать клан</string>
+    <string name="stats">Статистика</string>
+    <string name="stats_description">Раздел, где твоя игра разложена по полочкам. Следи, как ты поднимаешься в топ лучших игроков</string>
+    <string name="news">Новости</string>
+    <string name="news_description">Последние новости мира хакеров. Вдохновляйся реальными делами профессионалов</string>
+    <string name="partners">Партнеры</string>
+    <string name="partners_description">Партнеры</string>
+    <string name="stamina">Жизнь</string>
+    <string name="stamina_description">Параметр хакера, который увеличивает состояние твоего физического здоровья</string>
+    <string name="alco">Алкоголь</string>
+    <string name="alco_description">Параметр, который позволяет хакеру творить. Надо прибухнуть!</string>
+    <string name="mood">Настроение</string>
+    <string name="mood_description">Параметр, который радует в свободное от работы время хакера. Enjoy!</string>
+    <string name="job">Работа</string>
+    <string name="job_description">Соблюдай баланс добра и зла, притворяйся на работе обычным клерком, а в свободное время веди темные дела</string>
+    <string name="minigames">Миниигры</string>
+    <string name="minigames_description">Зарабатывай деньги играя в миниигры</string>
+    <string name="farm">Фарм</string>
+    <string name="farm__description">Используй свое железо для прохождения заданий</string>
+    <string name="house">Дом</string>
+    <string name="house_description">Переезжай из хрущевки в виллу у моря</string>
+    <string name="car">Машина</string>
+    <string name="car_description">Машина для тебя это роскошь, а не средство передвижения</string>
+    <string name="love">Отношения</string>
+    <string name="love_description">В этом разделе ты можешь похвастаться своей красоткой девушкой</string>
+    <string name="hardware">Железо</string>
+    <string name="hardware_description">Раздел для улучшения твоего ПК, для быстрого выполнения задач</string>
+    <string name="software">Софт</string>
+    <string name="software_description">Некоторые виды работ будут недоступны, пока не обновишь софт</string>
+    <string name="perks">Перки</string>
+    <string name="perks_description">Твой шанс использовать незаконные ускорители</string>
+    <string name="members">Участники</string>
+    <string name="clan_chat">Чат клана</string>
+    <string name="leave_clan">Покинуть клан</string>
+    <string name="request">Заявки</string>
+</resources>

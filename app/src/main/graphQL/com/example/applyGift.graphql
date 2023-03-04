@@ -1,0 +1,3 @@
+mutation applyGift($id: Int!) {
+    applyGift (id: $id) 
+}

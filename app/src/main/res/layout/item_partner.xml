@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clPartnerCont"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@drawable/style_background">
+
+    <ImageView
+        android:id="@+id/ivPartnerPic"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvPartnerTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/hack"
+        android:gravity="center"
+        android:text="Title"
+        android:textColor="@color/colorMain"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivPartnerPic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPartnerText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hack"
+        android:gravity="center"
+        android:textColor="@color/colorMain"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvPartnerHelp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivPartnerPic"
+        app:layout_constraintTop_toBottomOf="@+id/tvPartnerTitle" />
+
+    <TextView
+        android:id="@+id/tvPartnerHelp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hack"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:textColor="@color/colorMainDark"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivPartnerPic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+query getMyClan{
+    getMyClan {
+        id
+        title
+        rating
+        leader_id
+        leader
+        members_qty
+    }
+}

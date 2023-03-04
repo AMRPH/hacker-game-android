@@ -1,0 +1,12 @@
+subscription housing{ 
+	housing { 
+        id
+		level
+        title
+        description
+		image_path
+        price_rub
+        status
+        message
+	} 
+}

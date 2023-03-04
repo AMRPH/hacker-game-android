@@ -1,0 +1,9 @@
+mutation createClan($title: String!) {
+    createClan(title: $title) {
+        id
+        title
+        rating
+        leader_id
+        leader
+    }
+}

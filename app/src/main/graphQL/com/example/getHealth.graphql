@@ -1,0 +1,16 @@
+query getHealth($productType: String!) {
+    getHealth(productType: $productType) {
+        id
+        title
+        description
+        type
+        image_path
+        user_level
+        price_rub
+        health
+        alcohol
+        mood
+        status
+        message
+    }
+}

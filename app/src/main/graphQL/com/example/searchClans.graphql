@@ -1,0 +1,12 @@
+query searchClans($query: String!) {
+    searchClans(query: $query) {
+        id
+        title
+        rating
+        leader_id
+        leader
+        members_qty
+        membership_requests
+        is_member_or_in_requests
+    }
+}

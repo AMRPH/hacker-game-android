@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "98202973931",
+    "firebase_url": "https://hacker-simulator-dd595.firebaseio.com",
+    "project_id": "hacker-simulator-dd595",
+    "storage_bucket": "hacker-simulator-dd595.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98202973931:android:479bc9d61636e8853530ae",
+        "android_client_info": {
+          "package_name": "com.xlab13.playhacker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98202973931-sbhv7v1j5b0q2sl7gojlnge5756h60ul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xlab13.playhacker",
+            "certificate_hash": "957d7cc78f2d707b7aadb09aa93c1b8b6ce29204"
+          }
+        },
+        {
+          "client_id": "98202973931-n8hntoqlfpeh7suteensoa53q3p4d3bs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR0Wa4KLxqJlLxmjvS248w7kbuJ-C_wJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98202973931-n8hntoqlfpeh7suteensoa53q3p4d3bs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8059131308960326~2438017694"
+    }
+  ],
+  "configuration_version": "1"
+}

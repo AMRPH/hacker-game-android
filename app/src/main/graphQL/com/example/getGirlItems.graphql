@@ -1,0 +1,18 @@
+query getGirlItems{
+    getGirlItems {
+        type
+        items {
+            id
+            level
+            title
+            description
+            image_path
+            user_level
+            price_rub
+            daily_money
+            rating
+            status
+            message
+        }
+    }
+}
