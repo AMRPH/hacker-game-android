@@ -1,2 +1,2 @@
 # hacker-game-android
-Old commercial project, hasn't been finished
+Old commercial project(2020-2021), hasn't been finished
